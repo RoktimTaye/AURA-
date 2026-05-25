@@ -1,8 +1,8 @@
-# 🌌 AURA — Real-Time Commodity Price Prediction Platform
+# 🌌 AURA — AUTOMATED REAL-TIME ANALYSIS 
 
 <div align="center">
 
-### **AI-Powered Commodity Intelligence & Forecasting System**
+### **MACHINE LEARNING BASED GROCERY PRICE PREDICTION AND FORECASTING SYSTEM**
 
 *Bringing transparency, trust, and predictive insights to real-world commodity markets.*
 
@@ -19,9 +19,9 @@
 
 ---
 
-# 📖 Overview
+# OVERVIEW
 
-**Aura** is a next-generation AI-powered platform designed to provide **real-time commodity price intelligence** through community-driven reporting, anomaly detection, and machine learning forecasting.
+**Aura** is a purely Machine Learning based platform designed to provide **real-time commodity future price predictions** through community-driven reporting, anomaly detection, and machine learning forecasting.
 
 The platform enables users to:
 - Discover verified local commodity prices
@@ -33,7 +33,7 @@ Aura transforms scattered market information into a **transparent, intelligent, 
 
 ---
 
-# 🚀 Vision
+#  VISION
 
 In many regions, commodity prices fluctuate rapidly due to local market dynamics that are often hidden from consumers.
 
@@ -46,11 +46,11 @@ Aura aims to solve this by creating:
 
 ---
 
-# ✨ Core Features
+# CORE FEATURES
 
 ---
 
-## 🏪 1. Community-Driven Price Directory
+## 1. Community-Driven Price Directory
 
 Users can submit and browse commodity prices from local markets in real time.
 
@@ -63,7 +63,7 @@ Users can submit and browse commodity prices from local markets in real time.
 
 ---
 
-## 🧠 2. AI-Powered Anomaly Detection
+## 2. Machine Learning based Anomaly Detection
 
 Aura integrates a **Z-Score Statistical Detection Engine** to identify suspicious price submissions automatically.
 
@@ -91,7 +91,7 @@ The entry is automatically flagged.
 
 ---
 
-## 📈 3. Predictive Forecasting Engine
+## 3. Predictive Forecasting Engine
 
 Aura leverages **Meta's Prophet Model** for intelligent time-series forecasting.
 
@@ -115,7 +115,7 @@ Aura leverages **Meta's Prophet Model** for intelligent time-series forecasting.
 
 ---
 
-## 🗳️ 4. Community Verification System
+## 4. Community Verification System
 
 Aura includes a voting-based trust mechanism.
 
@@ -129,7 +129,7 @@ This creates a decentralized validation ecosystem.
 
 ---
 
-## 🛡️ 5. Admin Governance Dashboard
+## 5. Admin Governance Dashboard
 
 A complete administrative suite for platform governance.
 
@@ -142,7 +142,7 @@ A complete administrative suite for platform governance.
 
 ---
 
-# 🏗️ System Architecture
+# System Architecture
 
 ```text
  ┌────────────────────┐
@@ -166,7 +166,7 @@ A complete administrative suite for platform governance.
 
 ---
 
-# 🛠️ Tech Stack
+# Tech Stack
 
 # 🎨 Frontend
 
@@ -392,15 +392,15 @@ This project is developed for educational and research purposes.
 
 ---
 
-# 👨‍💻 Authors
+# 👨‍💻 Author
 
-### Team Aura
+### Roktim Taye
+### LinkedIn 
+```text
+https://www.linkedin.com/in/roktim-taye-86957437a/
+```
 
 **Developed for University Excellence**
-
-#### Core Contributors
-- Raktim
-- Team Aura
 
 ---
 
@@ -422,7 +422,7 @@ https://github.com/YOUR_BACKEND_REPO
 
 Aura is more than a price directory.
 
-It is a scalable AI-powered ecosystem designed to:
+It is a scalable Machine Learning based ecosystem designed to:
 - Improve market transparency
 - Empower consumers
 - Prevent misinformation
@@ -432,7 +432,7 @@ It is a scalable AI-powered ecosystem designed to:
 
 <div align="center">
 
-## 🌌 AURA
+## AURA
 
 ### *"Predicting Markets. Empowering Communities."*
 
