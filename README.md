@@ -1,125 +1,439 @@
-# AURA: Real-Time Commodity Price Prediction Platform
+# 🌌 AURA — Real-Time Commodity Price Prediction Platform
 
-**Aura** is a next-generation platform designed to bring transparency and predictive insights to the commodity market. By leveraging community-driven data and advanced machine learning, Aura empowers consumers and admins to track, verify, and forecast price trends for essential goods.
+<div align="center">
 
----
+### **AI-Powered Commodity Intelligence & Forecasting System**
 
-## 🚀 The Vision
-In many regions, the prices of essential commodities (like petrol, diesel, or groceries) fluctuate based on local market dynamics that are often opaque to the average consumer. Aura bridges this gap by providing a real-time, verified directory of local prices, protected by AI-driven anomaly detection and enhanced by predictive forecasting.
+*Bringing transparency, trust, and predictive insights to real-world commodity markets.*
 
----
+<br/>
 
-## ✨ Key Features
+![Python](https://img.shields.io/badge/Python-3.11+-blue?style=for-the-badge&logo=python)
+![FastAPI](https://img.shields.io/badge/FastAPI-Backend-green?style=for-the-badge&logo=fastapi)
+![React](https://img.shields.io/badge/React-18-blue?style=for-the-badge&logo=react)
+![TypeScript](https://img.shields.io/badge/TypeScript-Frontend-3178C6?style=for-the-badge&logo=typescript)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-Neon_DB-336791?style=for-the-badge&logo=postgresql)
+![Prophet](https://img.shields.io/badge/ML-Facebook_Prophet-purple?style=for-the-badge)
 
-### 1. Community-Driven Price Directory
-Users can report prices they observe in their local markets. The directory provides a clean, searchable interface to view modal prices, price ranges, and specific market locations.
-
-### 2. AI-Powered Data Integrity (Anomaly Detection)
-To prevent spam or "fake" price reporting, Aura integrates a **Z-Score Anomaly Detection** system. Every submission is analyzed against historical data:
-- **Automatic Flagging**: Submissions that deviate by more than 3 standard deviations from the mean are automatically flagged as "FLAGGED".
-- **Spam Protection**: Only "APPROVED" entries are shown in the public directory, ensuring data reliability.
-
-### 3. Predictive Insights (Forecasting)
-Aura doesn't just show you where prices are—it tells you where they are going. Using **Meta's Prophet Model**, the platform generates 7-day forecasts:
-- **Decision Support**: The system provides clear advice like "Buy Now" or "Wait to Buy" based on predicted trends.
-- **Seasonality**: The model accounts for daily and weekly patterns to provide accurate time-series analysis.
-
-### 4. Community Verification (Voting System)
-Accuracy is further reinforced through a net-voting system. Community members can upvote or downvote price entries, allowing the most accurate data to rise to the top.
-
-### 5. Robust Admin Dashboard
-A dedicated admin suite for:
-- **Data Governance**: Approving or deleting flagged entries.
-- **Analytics**: Viewing system-wide trends and user activity.
-- **User Management**: Secure sign-in/sign-up for administrators.
+</div>
 
 ---
 
-## 🛠️ Technical Stack
+# 📖 Overview
 
-### **Frontend (Client)**
-- **Framework**: React 18 with TypeScript
-- **Build Tool**: Vite
-- **Routing & State**: TanStack Router & TanStack Start
-- **Styling**: Tailwind CSS with Framer Motion for interactive UI
-- **Icons**: Lucide React
-- **Repo Link**: https://github.com/RoktimTaye/AURA-CLIENT
+**Aura** is a next-generation AI-powered platform designed to provide **real-time commodity price intelligence** through community-driven reporting, anomaly detection, and machine learning forecasting.
 
-### **Backend (Server)**
-- **Framework**: FastAPI (Python 3.11+)
-- **Database**: PostgreSQL (Hosted on **Neon Serverless**)
-- **ORM**: SQLAlchemy
-- **Validation**: Pydantic v2
+The platform enables users to:
+- Discover verified local commodity prices
+- Detect suspicious or manipulated price entries
+- Analyze market trends
+- Predict future price movements using AI
 
-### **Machine Learning Engine**
-- **Forecasting**: Facebook Prophet
-- **Analytics**: Pandas & NumPy
-- **Algorithm**: Z-Score for real-time outlier detection
+Aura transforms scattered market information into a **transparent, intelligent, and reliable ecosystem** for both consumers and administrators.
 
 ---
 
-## 📂 Project Structure
+# 🚀 Vision
 
-### **Server (Backend)**
+In many regions, commodity prices fluctuate rapidly due to local market dynamics that are often hidden from consumers.
+
+Aura aims to solve this by creating:
+
+✅ A trusted community-driven price network  
+✅ AI-verified pricing integrity  
+✅ Predictive forecasting for smarter decisions  
+✅ A scalable real-time market intelligence system  
+
+---
+
+# ✨ Core Features
+
+---
+
+## 🏪 1. Community-Driven Price Directory
+
+Users can submit and browse commodity prices from local markets in real time.
+
+### Features
+- Searchable market directory
+- Price ranges & modal prices
+- Location-specific entries
+- Clean and responsive UI
+- Community-generated market intelligence
+
+---
+
+## 🧠 2. AI-Powered Anomaly Detection
+
+Aura integrates a **Z-Score Statistical Detection Engine** to identify suspicious price submissions automatically.
+
+### How It Works
+
+Every submitted price is analyzed against historical market data.
+
+If a value deviates significantly from the statistical norm:
+
+\[
+Z = \frac{(X - \mu)}{\sigma}
+\]
+
+The entry is automatically flagged.
+
+### Detection Logic
+- **Approved** → Normal submissions
+- **Flagged** → Suspicious outliers
+- **Spam Prevention** → Fake entries blocked from public visibility
+
+### Benefits
+- Prevents manipulation
+- Maintains data integrity
+- Improves trustworthiness of market information
+
+---
+
+## 📈 3. Predictive Forecasting Engine
+
+Aura leverages **Meta's Prophet Model** for intelligent time-series forecasting.
+
+### Forecasting Capabilities
+- 7-Day commodity price predictions
+- Seasonal trend analysis
+- Daily & weekly market pattern recognition
+- Predictive buying recommendations
+
+### Example Insights
+| Market Trend | Recommendation |
+|---|---|
+| Prices expected to rise | **Buy Now** |
+| Prices expected to fall | **Wait to Buy** |
+
+### ML Stack
+- Prophet
+- Pandas
+- NumPy
+- Time-Series Analysis
+
+---
+
+## 🗳️ 4. Community Verification System
+
+Aura includes a voting-based trust mechanism.
+
+### Voting Features
+- Upvote accurate entries
+- Downvote suspicious reports
+- Surface trustworthy data
+- Community-driven verification layer
+
+This creates a decentralized validation ecosystem.
+
+---
+
+## 🛡️ 5. Admin Governance Dashboard
+
+A complete administrative suite for platform governance.
+
+### Admin Capabilities
+- Review flagged entries
+- Approve/Delete submissions
+- Monitor analytics
+- Manage users
+- Observe system-wide trends
+
+---
+
+# 🏗️ System Architecture
+
+```text
+ ┌────────────────────┐
+ │     React Client    │
+ │  (TanStack Start)   │
+ └─────────┬──────────┘
+           │ REST API
+           ▼
+ ┌────────────────────┐
+ │      FastAPI        │
+ │   Backend Server    │
+ └─────────┬──────────┘
+           │
+   ┌───────┴────────┐
+   ▼                ▼
+┌───────────┐   ┌────────────┐
+│ PostgreSQL │   │ ML Engine │
+│ Neon DB    │   │ Prophet AI│
+└───────────┘   └────────────┘
+```
+
+---
+
+# 🛠️ Tech Stack
+
+# 🎨 Frontend
+
+| Technology | Purpose |
+|---|---|
+| React 18 | Frontend Framework |
+| TypeScript | Type Safety |
+| Vite | Build Tool |
+| TanStack Router | Routing |
+| TanStack Start | SSR Framework |
+| Tailwind CSS | Styling |
+| Framer Motion | UI Animations |
+| Lucide React | Icons |
+
+---
+
+# ⚙️ Backend
+
+| Technology | Purpose |
+|---|---|
+| FastAPI | API Framework |
+| Python 3.11+ | Runtime |
+| SQLAlchemy | ORM |
+| Pydantic v2 | Validation |
+| PostgreSQL | Database |
+| Neon Serverless | Cloud Database Hosting |
+
+---
+
+# 🤖 Machine Learning
+
+| Tool | Purpose |
+|---|---|
+| Prophet | Forecasting |
+| Pandas | Data Analysis |
+| NumPy | Numerical Computing |
+| Z-Score Algorithm | Anomaly Detection |
+
+---
+
+# 📂 Project Structure
+
+# 🖥️ Backend Structure
+
 ```text
 server/
+│
 ├── app/
-│   ├── api/            # FastAPI Route Definitions
-│   ├── ml/             # ML Engine (Anomaly & Forecasting)
-│   ├── crud.py         # Database Transaction Logic
-│   ├── models.py       # SQLAlchemy Database Models
-│   ├── schemas.py      # Pydantic Data Validation
-│   └── main.py         # Application Entry Point
-├── DOC/                # Technical Documentation
-└── seed_db.py          # Data Seeding Scripts
-```
-
-### **Client (Frontend)**
-```text
-AURA(CLIENT)/
-├── src/
-│   ├── routes/         # TanStack File-based Routing
-│   ├── components/     # Reusable UI Components
-│   ├── lib/            # Auth and API Utilities
-│   └── server.ts       # SSR Handler for TanStack Start
-├── vite.config.ts      # Vite & Proxy Configuration
-└── tailwind.config.ts  # Design System Tokens
+│   ├── api/                # FastAPI Route Definitions
+│   ├── ml/                 # Machine Learning Engine
+│   ├── crud.py             # Database Operations
+│   ├── models.py           # SQLAlchemy Models
+│   ├── schemas.py          # Pydantic Validation Schemas
+│   └── main.py             # FastAPI Entry Point
+│
+├── DOC/                    # Technical Documentation
+│
+└── seed_db.py              # Database Seeding Script
 ```
 
 ---
 
-## 🛠️ Getting Started
+# 🌐 Frontend Structure
 
-### 1. Prerequisites
+```text
+AURA(CLIENT)/
+│
+├── src/
+│   ├── routes/             # File-Based Routing
+│   ├── components/         # Reusable Components
+│   ├── lib/                # Utilities & API Layer
+│   └── server.ts           # SSR Handler
+│
+├── vite.config.ts
+└── tailwind.config.ts
+```
+
+---
+
+# ⚡ Getting Started
+
+# 1️⃣ Prerequisites
+
+Ensure the following are installed:
+
 - Python 3.11+
 - Node.js 18+
-- Neon PostgreSQL Database Account
+- PostgreSQL / Neon Database
+- Git
 
-### 2. Backend Setup
+---
+
+# 2️⃣ Backend Setup
+
 ```bash
+# Navigate to backend
 cd server
+
+# Create virtual environment
 python -m venv .venv
-source .venv/bin/activate  # or .venv\Scripts\activate on Windows
+
+# Activate environment
+
+# Windows
+.venv\Scripts\activate
+
+# Linux / Mac
+source .venv/bin/activate
+
+# Install dependencies
 pip install -r requirements.txt
-# Create a .env file with DATABASE_URL
+
+# Create environment file
+touch .env
+
+# Add DATABASE_URL inside .env
+
+# Start server
 uvicorn app.main:app --reload
 ```
 
-### 3. Frontend Setup
+---
+
+# 3️⃣ Frontend Setup
+
 ```bash
+# Navigate to frontend
 cd AURA(CLIENT)
+
+# Install dependencies
 npm install
+
+# Start development server
 npm run dev
 ```
 
 ---
 
-## 🗺️ Roadmap
-- [ ] **JWT Authentication**: Moving from simple session cookies to secure JWT tokens.
-- [ ] **Mobile App**: Expanding the React-based logic to a native mobile experience.
-- [ ] **Advanced ML**: Implementing more complex seasonal models for specific agricultural products.
-- [ ] **Map Integration**: Visualizing price data on an interactive map using Leaflet/Google Maps.
+# 🔐 Environment Variables
+
+Create a `.env` file inside the backend directory.
+
+```env
+DATABASE_URL=your_neon_postgresql_url
+```
 
 ---
-**Project Developed for University Excellence**
-*Authored by Raktim & Team Aura*
+
+# 📊 Machine Learning Workflow
+
+```text
+User Submission
+       │
+       ▼
+Data Validation
+       │
+       ▼
+Z-Score Analysis
+       │
+ ┌─────┴─────┐
+ │           │
+ ▼           ▼
+APPROVED   FLAGGED
+ │
+ ▼
+Stored in PostgreSQL
+ │
+ ▼
+Forecasting Engine
+ │
+ ▼
+Prediction Results
+```
+
+---
+
+# 🧪 API Philosophy
+
+Aura follows:
+- RESTful API Design
+- Clean Separation of Concerns
+- Scalable Service Architecture
+- Typed Validation using Pydantic
+- Async-first Backend Design
+
+---
+
+# 📌 Future Roadmap
+
+- [ ] JWT Authentication
+- [ ] Native Mobile Application
+- [ ] Real-Time WebSocket Updates
+- [ ] Advanced Seasonal Forecast Models
+- [ ] Interactive Market Maps
+- [ ] Regional Trend Heatmaps
+- [ ] AI-Based Demand Prediction
+- [ ] Multi-Language Support
+
+---
+
+# 🤝 Contributing
+
+Contributions are welcome.
+
+### Development Workflow
+```bash
+# Fork Repository
+# Create Feature Branch
+git checkout -b feature/amazing-feature
+
+# Commit Changes
+git commit -m "Add amazing feature"
+
+# Push Changes
+git push origin feature/amazing-feature
+```
+
+---
+
+# 📄 License
+
+This project is developed for educational and research purposes.
+
+---
+
+# 👨‍💻 Authors
+
+### Team Aura
+
+**Developed for University Excellence**
+
+#### Core Contributors
+- Raktim
+- Team Aura
+
+---
+
+# 🔗 Repository Links
+
+## Frontend Repository
+```text
+https://github.com/RoktimTaye/AURA-CLIENT
+```
+
+## Backend Repository
+```text
+https://github.com/YOUR_BACKEND_REPO
+```
+
+---
+
+# ⭐ Final Note
+
+Aura is more than a price directory.
+
+It is a scalable AI-powered ecosystem designed to:
+- Improve market transparency
+- Empower consumers
+- Prevent misinformation
+- Predict future commodity trends intelligently
+
+---
+
+<div align="center">
+
+## 🌌 AURA
+
+### *"Predicting Markets. Empowering Communities."*
+
+</div>
