@@ -43,6 +43,7 @@ A dedicated admin suite for:
 - **Routing & State**: TanStack Router & TanStack Start
 - **Styling**: Tailwind CSS with Framer Motion for interactive UI
 - **Icons**: Lucide React
+- **Repo Link**: https://github.com/RoktimTaye/AURA-CLIENT
 
 ### **Backend (Server)**
 - **Framework**: FastAPI (Python 3.11+)
