@@ -121,7 +121,7 @@ Aura includes a voting-based trust mechanism.
 
 ### Voting Features
 - Upvote accurate entries
-- Downvote suspicious reports
+- Ignore suspicious reports
 - Surface trustworthy data
 - Community-driven verification layer
 
@@ -137,7 +137,6 @@ A complete administrative suite for platform governance.
 - Review flagged entries
 - Approve/Delete submissions
 - Monitor analytics
-- Manage users
 - Observe system-wide trends
 
 ---
