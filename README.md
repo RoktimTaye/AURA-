@@ -4,7 +4,7 @@
 
 ### **MACHINE LEARNING BASED GROCERY PRICE PREDICTION AND FORECASTING SYSTEM**
 
-*Bringing transparency, trust, and predictive insights to real-world commodity markets. Update check*
+*Bringing transparency, trust, and predictive insights to real-world commodity markets.*
 
 <br/>
 
